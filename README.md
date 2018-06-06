@@ -1,0 +1,1 @@
+Popout Tab is a basic chrome extension that allows you to popout your current tab to a new window via the context menu or a keyboard shortcut

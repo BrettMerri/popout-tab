@@ -1,0 +1,20 @@
+{
+  "name": "Popout tab",
+  "version": "1.0.3",
+  "description": "Popout your current tab to a new window",
+  "permissions": ["activeTab", "contextMenus"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "commands": {
+    "popout-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K"
+      },
+      "description": "Popout current tab"
+    }
+  },
+  "manifest_version": 2
+}
